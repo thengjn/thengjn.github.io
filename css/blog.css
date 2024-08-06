@@ -1,0 +1,11 @@
+
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.haberkart{
+    padding: -1;
+}

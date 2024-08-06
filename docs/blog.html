@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="icon" type="image/x-icon" href="/EnginWeb V2/img/hacker.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="/EnginWeb V2/css/blog.css" rel="stylesheet">
+  <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+      /* Okları daha belirgin yapmak için renk ekleyin */
+    }
+  </style>
+
+</head>
+
+<body class="BlogBackground">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <div>
+    <h1 style="text-align: center; margin-top: 1%; margin-bottom: 1.5%;">
+      Blog
+    </h1>
+  </div>
+
+  <div class="container mb-3">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/EnginWeb V2/index.html"><img class="icon-Navbar" src="/EnginWeb V2/img/hacker.png"
+              style="height: 9%; width: 9%;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/EnginWeb V2/index.html" target="_blank">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/EnginWeb V2/docs/yazioneri.html" id="iletisimButon">Yazı Önerisi Formu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/EnginWeb V2/img/Berserk Manga Wallpaper (1920x1080).jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yoruldun mu?</h5>
+              <p>Burasi guvenli bir alan.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/EnginWeb V2/img/Beyond Hill and Dale, Alena Aenami.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/EnginWeb V2/img/Obrázky na plochu   _ Post Scriptum, video hry, Templar, prápor, kôň, hrad, fantasy umenie, kríž, križiaci 1920x1080 - Strinix - 1660105 - Tapety na pc - WallHere.jpeg"
+              class="d-block" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 3%;">
+    <div class="row m-0 mt-1">
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/foto1.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">ArthurM@rg$n Kimdir?</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum earum ut assumenda
+              omnis. Incidunt?</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/foto2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Internetin Gizemli Adamlari</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum animi
+              incidunt quisquam adipisci vel?</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/foto4.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yazilim ile Milyoner Olmak?</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum eaque animi
+              eum numquam assumenda!</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5" style="margin-top: 3%;">
+    <div class="row m-0 mt-1">
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/8download.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Bu Araba Neden Burada?</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum earum ut assumenda
+              omnis. Incidunt?</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/9download.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Who da f are you? a cowboy?</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum animi
+              incidunt quisquam adipisci vel?</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 p-2">
+        <div class="card h-100">
+          <img src="/EnginWeb V2/img/gorickyourself.png" class="card-img-top" alt="..." style="position: relative;">
+          <div class="card-body">
+            <h5 class="card-title">Cysec'in sonu var mi??</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum eaque animi
+              eum numquam assumenda!</p>
+            <a href="#" class="btn btn-primary">Yaziyi Oku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-bottom: 2%;">
+    <img src="/EnginWeb V2/img/hacker.png" height="5%" width="5%" alt="">
+    <a href="/EnginWeb V2/index.html" style="text-decoration: none;">Anasayfaya Dönmek İçin Tıklayınız.</a>
+  </div>
+
+</body>
+
+</html>

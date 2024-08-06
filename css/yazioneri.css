@@ -1,0 +1,18 @@
+.baslikHosgeldiniz{
+    text-align: center;
+    margin: 2%;
+    background-color: navy;
+    color: whitesmoke;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+/* .arkaPlan{
+    background-image: url("/EnginWeb V2/img/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    height: 500px;
+    width: 500px;
+    text-align: center;
+} */
+

@@ -1,0 +1,306 @@
+.div-Hakkimda {
+  background-color: #f9f9fb9a;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3%;
+  border: 0.1px solid #d8d4d4;
+}
+
+.icon-Navbar {
+  width: 8%;
+  height: 8%;
+}
+
+.yetenek-bar {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.yukleme {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.yukleme-bar {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped .yukleme-bar {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 80%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 80%
+  }
+}
+
+.yukleme-bar-css {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-css .yukleme-bar-css {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 65%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeCss 6s;
+}
+
+@keyframes progressAnimationStrikeCss {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 65%
+  }
+}
+
+
+.yukleme-bar-bt {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-bt .yukleme-bar-bt {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 55%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeBt 6s;
+}
+
+@keyframes progressAnimationStrikeBt {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 55%
+  }
+}
+
+.yukleme-bar-sql {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-sql .yukleme-bar-sql {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 50%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeSql 6s;
+}
+
+@keyframes progressAnimationStrikeSql {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 50%
+  }
+}
+
+.yukleme-bar-ps {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-ps .yukleme-bar-ps {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 20%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikePs 6s;
+}
+
+@keyframes progressAnimationStrikePs {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 20%
+  }
+}
+
+.yukleme-bar-fig {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-fig .yukleme-bar-fig {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 35%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeFig 6s;
+}
+
+@keyframes progressAnimationStrikeFig {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 35%
+  }
+}
+
+.yukleme-bar-problem {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-problem .yukleme-bar-problem {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 80%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeProblem 6s;
+}
+
+@keyframes progressAnimationStrikeProblem {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 80%
+  }
+}
+
+.yukleme-bar-analitik {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-analitik .yukleme-bar-analitik {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 75%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 75%
+  }
+}
+
+.yukleme-bar-yabancidil {
+  /* ------------------------- */
+  height: 18px;
+  background-color: #ee3030;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.yukleme-striped-yabancidil .yukleme-bar-yabancidil {
+  /* her bar icin sadece buralari degistir ve animation kisminin adini o bar adi olarak belirle */
+  background-color: white;
+  width: 75%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.699) 25%,
+      transparent 25%, transparent 50%,
+      rgba(0, 0, 128, 0.699) 50%, rgba(0, 0, 128, 0.699) 75%,
+      transparent 75%, transparent);
+  animation: progressAnimationStrikeYabancidil 6s;
+}
+
+@keyframes progressAnimationStrikeYabancidil {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 75%
+  }
+}
+
+.div-Projeler {
+  width: 100%;
+  height: 10rem;
+  background-color: #f9f9fb;
+  border-radius: 5px;
+  border: 0.1px solid #d8d4d4;
+  padding: 1%;
+}
