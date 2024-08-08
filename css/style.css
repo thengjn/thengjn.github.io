@@ -304,3 +304,21 @@
   border: 0.1px solid #d8d4d4;
   padding: 1%;
 }
+
+.div-Deneyim{
+  width: 100%;
+  height: 10rem;
+  background-color: #f9f9fb;
+  border-radius: 5px;
+  border: 0.1px solid #d8d4d4;
+  padding: 1%;
+}
+
+.div-Egitim{
+  width: 100%;
+  height: 10rem;
+  background-color: #f9f9fb;
+  border-radius: 5px;
+  border: 0.1px solid #d8d4d4;
+  padding: 1%;
+}
