@@ -38,16 +38,16 @@
   </script>
 
 
-  <h1 style="text-align: center; margin: 0%; margin-bottom: 1%; margin-top: 1%;">Mustafa Engin Ö<a
-      href="../docs/supriz.html" target="_blank" style="text-decoration: none; color: black;">z</a>can</h1>
+  <h1 style="text-align: center; margin: 0%; margin-bottom: 1%; margin-top: 1%;">Mustafa Engin Özcan</h1>
 
   <div class="container">
     <div class="row">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../docs/indexEnglish.html"><img class="icon-Navbar"
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid" id="naviBar">
+          <a class="navbar-brand" href="../docs/indexEnglish.html" id="naviBar"><img class="icon-Navbar"
               src="../img/hacker.png">Homepage</a>
-          <a class="btn btn-outline-primary" href="../index.html" role="button">TR/EN</a> <!-- change language -->
+          <a class="btn btn-dark" href="../index.html" role="button">TR/EN</a>
+          <button id="theme-toggle" class="btn btn-dark mx-1">Koyu Mod</button> <!-- change language -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -56,10 +56,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../docs/blog.html">Blog</a>
+                <a class="nav-link" aria-current="page" href="../docs/blog.html" id="naviBar">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer" id="iletisimButon">Contact</a>
+                <a class="nav-link naviBar" href="#footer" id="iletisimButon">Contact</a>
               </li>
             </ul>
           </div>
@@ -255,7 +255,7 @@
       <!-- Left -->
 
       <!-- Right -->
-      <div>
+      <div class="dark-mode">
         <!-- <a href="" class="me-4 text-reset" target="_blank">
           <i class="fab fa-google"> o o g l e</i>
         </a> -->
@@ -351,6 +351,7 @@
   </footer>
   <!-- Footer -->
   </div>
+  <script src="../json/script.js"></script>
 </body>
 
 </html>

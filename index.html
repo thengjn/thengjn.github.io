@@ -37,27 +37,29 @@
     });
   </script>
 
-  <h1 style="text-align: center; margin: 0%; margin-bottom: 1%; margin-top: 1%;">Mustafa Engin Ö<a
-      href="../docs/supriz.html" target="_blank" style="text-decoration: none; color: black;">z</a>can</h1>
+  <h1 style="text-align: center; margin: 0%; margin-bottom: 1%; margin-top: 1%;">Mustafa Engin Özcan</h1>
 
   <div class="container">
     <div class="row">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img class="icon-Navbar" src="../img/hacker.png">Anasayfa</a>
-          <a class="btn btn-outline-primary" href="../docs/indexEnglish.html" role="button">TR/EN</a>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid" id="naviBar">
+          <a class="navbar-brand" href="../index.html" id="naviBar"><img class="icon-Navbar"
+              src="../img/hacker.png">Anasayfa</a>
+          <a class="btn btn-dark" href="../docs/indexEnglish.html" role="button">TR/EN</a>
+          <button id="theme-toggle" class="btn btn-dark mx-1">Koyu Mod</button>
           <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../docs/blog.html" >Blog</a>
+                <a class="nav-link" aria-current="page" href="../docs/blog.html" id="naviBar">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer" id="iletisimButon">İletişim</a>
+                <a class="nav-link naviBar" href="#footer" id="iletisimButon">İletişim</a>
               </li>
             </ul>
           </div>
@@ -95,16 +97,20 @@
           <h2>Hakkımda</h2>
           <p>Haliç Üniversitesi Bilgisayar Programcılığı departmanının 1. sınıfını 3.24 ortalama ile bitirdim. Okulda
             görmüş olduğum
-            derslerin yanında kendim çalışarak edindiğim ek kaynakları kullanıp <b>MSSQL ile Veritabanı Yönetim Sistemi</b>
-            projesi geliştirerek 1. sınıfı tamamladım. Aynı zamanda, temel seviyede <b>C</b> dili ile programlamayı da öğrendim. 1. sınfın sonunda
+            derslerin yanında kendim çalışarak edindiğim ek kaynakları kullanıp <b>MSSQL ile Veritabanı Yönetim
+              Sistemi</b>
+            projesi geliştirerek 1. sınıfı tamamladım. Aynı zamanda, temel seviyede <b>C</b> dili ile programlamayı da
+            öğrendim. 1. sınfın sonunda
             başlamış
             olduğum zorunlu yaz stajım esnasında bu websitesini geliştirdim. <b>HTML, CSS, Bootstrap</b> ve
             <b>Github</b> konusunda bilgi
             sahibiyim. Öğrendiğim dillerin dökümanlarını kullanıp anlayabilecek düzeyde ingilizceye (A2-B1) sahibim.
           </p>
-          <p>Ek olarak, gelecekte kariyerimi inşa etmeyi planladığım <b>Siber Güvenlik</b> alanında bilgi birikimimi artırmak
+          <p>Ek olarak, gelecekte kariyerimi inşa etmeyi planladığım <b>Siber Güvenlik</b> alanında bilgi birikimimi
+            artırmak
             için çalışmalara devam ediyorum. Şu an Linux ve ağ bilgisi üzerine yoğunlaşıyorum.</p>
-            <p>Takım çalışmasına uyumlu, kendi kendine başlayabilen, sorumluluk sahibi ve işini severek yapan bir insanım.</p>
+          <p>Takım çalışmasına uyumlu, kendi kendine başlayabilen, sorumluluk sahibi ve işini severek yapan bir insanım.
+          </p>
         </div>
       </div>
     </div>
@@ -206,18 +212,18 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
-      <div class="div-Projeler">
-        <h2 style="margin-left: 1%;">Projelerim</h2>
-        <ul>
-          <li>
-            <p>MSSQL Ile Veritabani Yönetim Projesi</p>
-          </li>
-          <li>
-            <p>Bu websitesi.</p>
-          </li>
-        </ul>
+        <div class="div-Projeler">
+          <h2 style="margin-left: 1%;">Projelerim</h2>
+          <ul>
+            <li>
+              <p>MSSQL Ile Veritabani Yönetim Projesi</p>
+            </li>
+            <li>
+              <p>Bu websitesi.</p>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 
@@ -242,7 +248,7 @@
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-body-tertiary text-muted" id="footer">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom dark-mode">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
         <span>İletişime geçebileceğiniz sosyal medya hesaplarım:</span>
@@ -250,7 +256,7 @@
       <!-- Left -->
 
       <!-- Right -->
-      <div>
+      <div class="dark-mode">
         <!-- <a href="" class="me-4 text-reset" target="_blank">
           <i class="fab fa-google"> o o g l e</i>
         </a> -->
@@ -266,7 +272,7 @@
     <!-- Section: Social media -->
 
     <!-- Section: Links  -->
-    <section class="">
+    <section class="footerIletisim">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -311,7 +317,7 @@
               Hızlı Erişim
             </h6>
             <p>
-              <a href="docs/blog.html" class="text-reset" >Blog</a>
+              <a href="docs/blog.html" class="text-reset">Blog</a>
             </p>
             <p>
               <a href="docs/IsTeklifi.html" class="text-reset">İş Teklifi</a>
@@ -331,7 +337,8 @@
             <h6 class="text-uppercase fw-bold mb-4">İletişim</h6>
             <p><i class="fas fa-home me-3"></i>New York, NY 10012, US</p>
             <i class="fas fa-envelope me-3"></i>
-            <a href="mailto:enginozcan636@proton.me" class="mail-Iletisim" style="color: rgb(73, 73, 73); text-decoration: none;">enginozcan636@proton.me</a>
+            <a href="mailto:enginozcan636@proton.me" class="mail-Iletisim"
+              style="color: rgb(73, 73, 73); text-decoration: none;">enginozcan636@proton.me</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -347,6 +354,8 @@
   </footer>
   <!-- Footer -->
   </div>
+
+  <script src="json/script.js"></script>
 </body>
 
 </html>

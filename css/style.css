@@ -327,3 +327,48 @@
   color:rgb(11, 96, 255);
   text-decoration: double;
 }
+
+.dark-mode #naviBar{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .naviBar{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode{
+  background-color: #15151a;
+  color: #fff;
+}
+
+.dark-mode .card{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .div-Hakkimda{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .div-Deneyim{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .div-Projeler{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .div-Egitim{
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .card  h6{
+  background-color: #333;
+  color: #fff;
+}
