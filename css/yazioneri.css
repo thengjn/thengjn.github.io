@@ -1,12 +1,14 @@
 .baslikHosgeldiniz{
     margin: 2%;
-    border: 1px solid grey;
-    border-radius: 5px;
     padding-bottom: 1%;
     height: 5%;
     width: 100%;
-    background-color: azure;
     text-align: center;
+}
+
+body, form {
+    background-color: #333;
+    color: white;
 }
 
 

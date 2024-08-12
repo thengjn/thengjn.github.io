@@ -9,3 +9,27 @@
 .haberkart{
     padding: -1;
 }
+
+.dark-mode{
+    background-color: #15151a;
+    color: #fff;
+  }
+
+  .dark-mode .card{
+    background-color: #15151a;
+    color: #fff;
+  }
+
+  .dark-mode .card-body{
+    background-color: #333;
+    color: #fff;
+  }
+
+  .dark-mode .naviBar{
+    background-color: #15151a;
+    color: #fff;
+  }
+
+  .anasayfaDonus:hover{
+    color: rgb(255, 0, 0);
+  }
