@@ -157,4 +157,8 @@ nav svg{
 
 .dark-mode .btn{
     color: white;
-  }
+}
+
+footer section div p a{
+    text-decoration: none;
+}
