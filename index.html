@@ -41,30 +41,30 @@
 
   <div class="container">
     <div class="row">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
-        <div class="container-fluid" id="naviBar">
-          <a class="navbar-brand" href="../index.html" id="naviBar"><img class="icon-Navbar sayfaIcon"
-              src="../img/hacker.png">Anasayfa</a>
-          <a class="btn btn-dark" href="../docs/indexEnglish.html" role="button">TR/EN</a>
-          <button id="theme-toggle" class="btn btn-dark mx-1">Koyu Mod / Açık Mod</button>
-          <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav id="naviBar">
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </label>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../docs/blog.html" id="naviBar">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link naviBar" href="#footer" id="iletisimButon">İletişim</a>
-              </li>
-            </ul>
-          </div>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </label>
+
+            <a class="home-link" href="index.html">Anasayfa</a>
+            <a href="docs/blog.html">Blog</a>
+            <a href="#footer" id="iletisimButon">İletişim</a>
+            <a href="docs/indexEnglish.html">EN/TR</a>
+            <button id="theme-toggle" class="btn">Dark</button>
         </div>
-      </nav>
+    </nav>
     </div>
   </div>
 
